@@ -1,0 +1,36 @@
+:root {
+  --primary-color-text: #757575;
+  --secondary-color-headings: #212121;
+  --primary-color-white: #ffffff;
+  --secondary-color-white: rgba(255, 255, 255, 0.6);
+  --blue-color: #2196f3;
+  --bacground-color-white: #e5e5e5;
+  --background-color-grey: #f5f4fa;
+  --background-color-dark: #2f303a;
+}
+
+/*hero*/
+
+.hero {
+  background-color: var(--background-color-dark);
+  text-align: center;
+}
+
+.hero-title {
+  color: var(--primary-color-white);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.hero .link {
+  color: var(--bacground-color-white);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  text-decoration: none;
+  background-color: var(--blue-color);
+}
