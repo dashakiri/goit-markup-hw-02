@@ -34,3 +34,36 @@
   text-decoration: none;
   background-color: var(--blue-color);
 }
+
+/* features */
+
+.features-header {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+/* services + team*/
+
+.services-header,
+.team-header {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.team {
+  background-color: var(--background-color-grey);
+}
+
+.team-member {
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.member-name {
+  font-weight: 500;
+}

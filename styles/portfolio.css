@@ -1,0 +1,44 @@
+:root {
+  --primary-color-text: #757575;
+  --secondary-color-headings: #212121;
+  --logo-black: #000000;
+  --primary-color-white: #ffffff;
+  --secondary-color-white: rgba(255, 255, 255, 0.6);
+  --blue-color: #2196f3;
+  --bacground-color-white: #e5e5e5;
+  --background-color-grey: #f5f4fa;
+  --background-color-dark: #2f303a;
+}
+
+/* main */
+
+.filter .filter-button {
+  color: var(--secondary-color-headings);
+  background-color: var(--background-color-grey);
+  border: none;
+}
+
+.filter .filter-button:hover,
+.filter .filter-button:focus {
+  color: var(--primary-color-white);
+  background-color: var(--blue-color);
+}
+
+.filter-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+}
+
+.project-heading {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.project-text {
+  font-size: 16px;
+  line-height: 1.87;
+}
