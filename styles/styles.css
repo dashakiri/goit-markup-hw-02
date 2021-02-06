@@ -4,9 +4,12 @@
   --primary-color-white: #ffffff;
   --secondary-color-white: rgba(255, 255, 255, 0.6);
   --blue-color: #2196f3;
-  --bacground-color-white: #e5e5e5;
   --background-color-grey: #f5f4fa;
   --background-color-dark: #2f303a;
+}
+
+.list-item.current {
+  color: var(--blue-color);
 }
 
 /*hero*/
@@ -26,13 +29,18 @@
 }
 
 .hero .link {
-  color: var(--bacground-color-white);
+  color: var(--primary-color-white);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
   text-decoration: none;
   background-color: var(--blue-color);
+}
+
+.hero .link:hover,
+.hero .link:focus {
+  color: var(--secondary-color-headings);
 }
 
 /* features */
